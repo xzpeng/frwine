@@ -96,6 +96,18 @@ CREATE TABLE `frw_news` (
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COMMENT='新闻表' ;
 
+# 数据库表：frw_dictionary 结构信息
+DROP TABLE IF EXISTS `frw_dictionary`;
+CREATE TABLE `frw_dictionary` (
+  `id` mediumint(8) NOT NULL AUTO_INCREMENT,
+  `frname` varchar(200) DEFAULT NULL COMMENT '新闻标题',
+  `chname` varchar(200) DEFAULT NULL COMMENT '新闻标题',
+  `description` mediumtext COMMENT '文章描述',
+  `area` varchar(255) DEFAULT NULL COMMENT '文章摘要',
+  `update_time` int(10) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COMMENT='Dictionary表' ;
+
 # 数据库表：frw_node 结构信息
 DROP TABLE IF EXISTS `frw_node`;
 CREATE TABLE `frw_node` (

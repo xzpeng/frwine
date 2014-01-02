@@ -7,6 +7,7 @@ $config_arr2 = array(
         'Index' => '首页',
         'Member' => '用户管理',
         'News' => '资讯管理',
+        'Dictionary' => '字典管理',
 //        'Webinfo'=>'系统设置',
         'SysData' => '数据管理',
         'Access' => '权限管理',
@@ -29,6 +30,9 @@ $config_arr2 = array(
             'index' => '新闻列表',
             'category' => '新闻分类管理',
             'add' => '发布新闻',
+        ),
+        'Dictionary' => array(
+            'index' => '字典列表'
         ),
         'SysData' => array(
             'index' => '数据库备份',
