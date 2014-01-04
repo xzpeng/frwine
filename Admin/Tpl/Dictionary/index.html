@@ -22,21 +22,23 @@
                     <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tab">
                         <thead>
                             <tr>
-                                <td>新闻标题</td>
-                                <td>所在分类</td>
-                                <td>状态</td>
-                                <td>发布时间</td>
-                                <td>发布人</td>
+                                <td>ID</td>
+                                <td>Franch name</td>
+                                <td>Chinese name</td>
+                                <td>Description</td>
+                                <td>Region</td>
+                                <td>Update time</td>
                                 <td width="150">操作</td>
                             </tr>
                         </thead>
                         <volist name="list" id="vo">
                             <tr align="center" id="{$vo.id}">
-                                <td align="left">{$vo.title}</td>
-                                <td>{$vo.cidName}</td>
-                                <td>{$vo.status}</td>
-                                <td>{$vo.published|date="Y-m-d H:i:s",###}</td>
-                                <td>{$vo.aidName}</td>
+                                <td>{$vo.id}</td>
+                                <td>{$vo.frname}</td>
+                                <td>{$vo.chname}</td>
+                                <td>{$vo.description}</td>
+                                <td>{$vo.region}</td>
+                                <td>{$vo.update_time|date="Y-m-d H:i:s",###}</td>
                                 <td>[ <a href="__URL__/edit?id={$vo.id}">编辑 </a> ] [ <a link="{:U('News/del/',array('id'=>$vo['id']))}" href="javascript:void(0)" name="{$vo.title}" class="del">删除 </a> ]</td>
                             </tr>
                         </volist>

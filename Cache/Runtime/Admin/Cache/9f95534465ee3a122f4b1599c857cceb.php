@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>资讯管理-<?php echo ($site["SITE_INFO"]["name"]); ?></title>
-        <?php $addCss=""; $addJs=""; $currentNav ='资讯管理 > 资讯列表'; ?>
+        <?php $addCss=""; $addJs=""; $currentNav ='字典管理 > 字典列表'; ?>
         <base href="<?php echo ($site["WEB_ROOT"]); ?>"/>
 <link rel="stylesheet" type="text/css" href="<?php echo ($site["WEB_ROOT"]); ?>Public/Min/?f=../Public/Css/base.css|../Public/Css/layout.css|__PUBLIC__/Js/asyncbox/skins/default.css<?php echo ($addCss); ?>" />
 <script type="text/javascript" src="<?php echo ($site["WEB_ROOT"]); ?>Public/Min/?f=__PUBLIC__/Js/jquery-1.9.0.min.js|__PUBLIC__/Js/jquery.lazyload.js|__PUBLIC__/Js/functions.js|../Public/Js/base.js|__PUBLIC__/Js/jquery.form.js|__PUBLIC__/Js/asyncbox/asyncbox.js<?php echo ($addJs); ?>"></script>
@@ -53,20 +53,22 @@
                     <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tab">
                         <thead>
                             <tr>
-                                <td>新闻标题</td>
-                                <td>所在分类</td>
-                                <td>状态</td>
-                                <td>发布时间</td>
-                                <td>发布人</td>
+                                <td>ID</td>
+                                <td>Franch name</td>
+                                <td>Chinese name</td>
+                                <td>Description</td>
+                                <td>Region</td>
+                                <td>Update time</td>
                                 <td width="150">操作</td>
                             </tr>
                         </thead>
                         <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr align="center" id="<?php echo ($vo["id"]); ?>">
-                                <td align="left"><?php echo ($vo["title"]); ?></td>
-                                <td><?php echo ($vo["cidName"]); ?></td>
-                                <td><?php echo ($vo["status"]); ?></td>
-                                <td><?php echo (date("Y-m-d H:i:s",$vo["published"])); ?></td>
-                                <td><?php echo ($vo["aidName"]); ?></td>
+                                <td><?php echo ($vo["id"]); ?></td>
+                                <td><?php echo ($vo["frname"]); ?></td>
+                                <td><?php echo ($vo["chname"]); ?></td>
+                                <td><?php echo ($vo["description"]); ?></td>
+                                <td><?php echo ($vo["region"]); ?></td>
+                                <td><?php echo (date("Y-m-d H:i:s",$vo["update_time"])); ?></td>
                                 <td>[ <a href="__URL__/edit?id=<?php echo ($vo["id"]); ?>">编辑 </a> ] [ <a link="<?php echo U('News/del/',array('id'=>$vo['id']));?>" href="javascript:void(0)" name="<?php echo ($vo["title"]); ?>" class="del">删除 </a> ]</td>
                             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                     </table>

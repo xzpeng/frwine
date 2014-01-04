@@ -11,7 +11,8 @@ class DictionaryAction extends CommonAction {
         $page = new Page($count, 20);
         $showPage = $page->show();
         $this->assign("page", $showPage);
-        $this->assign("list", D("Dictionary")->listDictionary($page->firstRow, $page->listRows));
+        $list = D("Dictionary")->listDictionary($page->firstRow, $page->listRows);
+        $this->assign("list", $list);
         $this->display();
     }
 
