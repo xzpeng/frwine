@@ -1,0 +1,718 @@
+[ 2014-01-04T11:24:23+08:00 ] 127.0.0.1 /system.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001787s ]
+
+[ 2014-01-04T11:24:23+08:00 ] 127.0.0.1 /system.php/Public/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001548s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001639s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.024730s ]
+INFO: [ view_template ] --END-- [ RunTime:0.024875s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: name D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\cc4b0a749ca5cccb40c3abc8a077ff27.php 第 5 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.033309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033404s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001325s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001293s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001114s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005455s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001622s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001716s ]
+
+[ 2014-01-04T11:24:40+08:00 ] 127.0.0.1 /system.php/Public/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.017609s ]
+INFO: [ route_check ] --END-- [ RunTime:0.017746s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002932s ]
+SQL: SHOW COLUMNS FROM `frw_admin` [ RunTime:0.004398s ]
+SQL: SHOW COLUMNS FROM `frw_public` [ RunTime:0.003160s ]
+ERR: Table 'frwine.frw_public' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `frw_public`
+NOTIC: [2] Missing argument 1 for PublicModel::auth(), called in D:\xampp\htdocs\frwine\Admin\Lib\Action\PublicAction.class.php on line 34 and defined D:\xampp\htdocs\frwine\Admin\Lib\Model\PublicModel.class.php 第 5 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `frw_admin` WHERE ( `email`='pengxiaozhou2008@gmail.com' ) LIMIT 1   [ RunTime:0.008884s ]
+SQL: SELECT * FROM `frw_admin` WHERE ( `email`='pengxiaozhou2008@gmail.com' ) LIMIT 1   [ RunTime:0.001535s ]
+SQL: SELECT * FROM `frw_admin` WHERE ( `email` = 'pengxiaozhou2008@gmail.com' ) LIMIT 1   [ RunTime:0.000369s ]
+
+[ 2014-01-04T11:24:42+08:00 ] 127.0.0.1 /system.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001252s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001352s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.038423s ]
+INFO: [ view_template ] --END-- [ RunTime:0.038553s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: QRcodeUrl D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 46 行.
+NOTIC: [8] Undefined variable: caches D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 58 行.
+NOTIC: [8] Undefined index: icp D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 68 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.083159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083234s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002120s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.007773s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000859s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.008439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019504s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.008366s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008454s ]
+
+[ 2014-01-04T11:24:45+08:00 ] 127.0.0.1 /system.php/SysData/backup
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001692s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001791s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+SQL: SHOW COLUMNS FROM `frw_sys_data` [ RunTime:0.005462s ]
+ERR: Table 'frwine.frw_sys_data' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `frw_sys_data`
+SQL: SHOW TABLE STATUS [ RunTime:0.001235s ]
+
+[ 2014-01-04T11:26:47+08:00 ] 127.0.0.1 /system.php/Dictionary/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002213s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002313s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001362s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.003247s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `frw_dictionary` LIMIT 1   [ RunTime:0.000198s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.003700s ]
+SQL: SELECT `id`,`frname`,`chname`,`description`,`region`,`update_time` FROM `frw_dictionary` ORDER BY `id` DESC LIMIT 0 , 20   [ RunTime:0.000160s ]
+ERR: Unknown column 'region' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`frname`,`chname`,`description`,`region`,`update_time` FROM `frw_dictionary` ORDER BY `id` DESC LIMIT 0 , 20  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001715s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001780s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: QRcodeUrl D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 46 行.
+NOTIC: [8] Undefined index: icp D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 81 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.040236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040308s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000968s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001063s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000901s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004196s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001196s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001268s ]
+
+[ 2014-01-04T11:26:54+08:00 ] 127.0.0.1 /system.php/Dictionary/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001759s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001917s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.003706s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `frw_dictionary` LIMIT 1   [ RunTime:0.000268s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.003813s ]
+SQL: SELECT `id`,`frname`,`chname`,`description`,`region`,`update_time` FROM `frw_dictionary` ORDER BY `id` DESC LIMIT 0 , 20   [ RunTime:0.000291s ]
+ERR: Unknown column 'region' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`frname`,`chname`,`description`,`region`,`update_time` FROM `frw_dictionary` ORDER BY `id` DESC LIMIT 0 , 20  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001351s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001439s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: QRcodeUrl D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 46 行.
+NOTIC: [8] Undefined index: icp D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 81 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.017725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017807s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000773s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000702s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000572s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003046s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000900s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2014-01-04T11:29:46+08:00 ] 127.0.0.1 /system.php/Dictionary/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001701s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001805s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.003353s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `frw_dictionary` LIMIT 1   [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.003920s ]
+SQL: SELECT `id`,`frname`,`chname`,`description`,`region`,`update_time` FROM `frw_dictionary` ORDER BY `id` DESC LIMIT 0 , 20   [ RunTime:0.000591s ]
+ERR: Unknown column 'region' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`frname`,`chname`,`description`,`region`,`update_time` FROM `frw_dictionary` ORDER BY `id` DESC LIMIT 0 , 20  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001611s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001688s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: QRcodeUrl D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 46 行.
+NOTIC: [8] Undefined index: icp D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 78 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.021176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021251s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001496s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001020s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000921s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005964s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001215s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001306s ]
+
+[ 2014-01-04T11:29:51+08:00 ] 127.0.0.1 /system.php/Dictionary/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001857s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001968s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.003444s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `frw_dictionary` LIMIT 1   [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.004280s ]
+SQL: SELECT `id`,`frname`,`chname`,`description`,`region`,`update_time` FROM `frw_dictionary` ORDER BY `id` DESC LIMIT 0 , 20   [ RunTime:0.000172s ]
+ERR: Unknown column 'region' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`frname`,`chname`,`description`,`region`,`update_time` FROM `frw_dictionary` ORDER BY `id` DESC LIMIT 0 , 20  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001261s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001324s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: QRcodeUrl D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 46 行.
+NOTIC: [8] Undefined index: icp D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 78 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.019250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019326s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000972s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000942s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000610s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003426s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000928s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000997s ]
+
+[ 2014-01-04T11:29:51+08:00 ] 127.0.0.1 /system.php/Dictionary/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001396s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001564s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002597s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.004891s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `frw_dictionary` LIMIT 1   [ RunTime:0.000174s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.003920s ]
+SQL: SELECT `id`,`frname`,`chname`,`description`,`region`,`update_time` FROM `frw_dictionary` ORDER BY `id` DESC LIMIT 0 , 20   [ RunTime:0.000265s ]
+ERR: Unknown column 'region' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`frname`,`chname`,`description`,`region`,`update_time` FROM `frw_dictionary` ORDER BY `id` DESC LIMIT 0 , 20  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001379s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001452s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: QRcodeUrl D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 46 行.
+NOTIC: [8] Undefined index: icp D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 78 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.017113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017185s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000840s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000685s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000513s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002736s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000875s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2014-01-04T11:30:54+08:00 ] 127.0.0.1 /system.php/Dictionary/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001565s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001656s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.004827s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `frw_dictionary` LIMIT 1   [ RunTime:0.000793s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.004218s ]
+SQL: SELECT `id`,`frname`,`chname`,`description`,`region`,`update_time` FROM `frw_dictionary` ORDER BY `id` DESC LIMIT 0 , 20   [ RunTime:0.000218s ]
+ERR: Unknown column 'region' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`frname`,`chname`,`description`,`region`,`update_time` FROM `frw_dictionary` ORDER BY `id` DESC LIMIT 0 , 20  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002147s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002311s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: QRcodeUrl D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 46 行.
+NOTIC: [8] Undefined index: icp D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 78 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.026077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026153s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001140s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001604s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001114s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005219s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000956s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2014-01-04T11:31:32+08:00 ] 127.0.0.1 /system.php/Dictionary/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002427s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002528s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.005391s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `frw_dictionary` LIMIT 1   [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.003924s ]
+SQL: SELECT `id`,`frname`,`chname`,`description`,`region`,`update_time` FROM `frw_dictionary` ORDER BY `id` DESC LIMIT 0 , 20   [ RunTime:0.000191s ]
+ERR: Unknown column 'region' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`frname`,`chname`,`description`,`region`,`update_time` FROM `frw_dictionary` ORDER BY `id` DESC LIMIT 0 , 20  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001198s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001267s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: QRcodeUrl D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 46 行.
+NOTIC: [8] Undefined index: icp D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 78 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.017606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017679s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000748s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000721s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000713s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000909s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003322s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001221s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001296s ]
+
+[ 2014-01-04T11:38:12+08:00 ] 127.0.0.1 /system.php/Dictionary/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002025s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002128s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001280s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.005254s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `frw_dictionary` LIMIT 1   [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.005100s ]
+SQL: SELECT `id`,`frname`,`chname`,`description`,`region`,`update_time` FROM `frw_dictionary` ORDER BY `id` DESC LIMIT 0 , 20   [ RunTime:0.000424s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003411s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003515s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: QRcodeUrl D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 46 行.
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 63 行.
+NOTIC: [8] Undefined index: frame D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 64 行.
+NOTIC: [8] Undefined index: published D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 66 行.
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 67 行.
+NOTIC: [8] Undefined index: icp D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 78 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.027118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027196s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000944s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000907s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000938s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004111s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004485s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004766s ]
+
+[ 2014-01-04T11:38:42+08:00 ] 127.0.0.1 /system.php/Dictionary/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001328s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001455s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.018527s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `frw_dictionary` LIMIT 1   [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.011235s ]
+SQL: SELECT `id`,`frname`,`chname`,`description`,`region`,`update_time` FROM `frw_dictionary` ORDER BY `id` DESC LIMIT 0 , 20   [ RunTime:0.001352s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001208s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001316s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: QRcodeUrl D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 46 行.
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 63 行.
+NOTIC: [8] Undefined index: frame D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 64 行.
+NOTIC: [8] Undefined index: published D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 66 行.
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 67 行.
+NOTIC: [8] Undefined index: icp D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 78 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.019582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019658s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000687s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000603s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001603s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003820s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000868s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000950s ]
+
+[ 2014-01-04T11:39:53+08:00 ] 127.0.0.1 /system.php/Dictionary/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001815s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001930s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.010031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `frw_dictionary` LIMIT 1   [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.005176s ]
+SQL: SELECT `id`,`frname`,`chname`,`description`,`region`,`update_time` FROM `frw_dictionary` ORDER BY `id` DESC LIMIT 0 , 20   [ RunTime:0.000466s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001731s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001827s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: QRcodeUrl D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 46 行.
+NOTIC: [8] Undefined index: frame D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 65 行.
+NOTIC: [8] Undefined index: published D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 67 行.
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 68 行.
+NOTIC: [8] Undefined index: icp D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 79 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.019260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019334s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000915s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001160s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000750s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000913s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003968s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001057s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001146s ]
+
+[ 2014-01-04T11:40:13+08:00 ] 127.0.0.1 /system.php/Dictionary/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001333s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001442s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.005578s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `frw_dictionary` LIMIT 1   [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.003537s ]
+SQL: SELECT `id`,`frname`,`chname`,`description`,`region`,`update_time` FROM `frw_dictionary` ORDER BY `id` DESC LIMIT 0 , 20   [ RunTime:0.000332s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001620s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001707s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: QRcodeUrl D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 46 行.
+NOTIC: [8] Undefined index: published D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 67 行.
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 68 行.
+NOTIC: [8] Undefined index: icp D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 79 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.022361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022443s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001024s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002109s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000743s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000966s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005065s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000902s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2014-01-04T11:43:02+08:00 ] 127.0.0.1 /system.php/Dictionary/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001529s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001664s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.004187s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `frw_dictionary` LIMIT 1   [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.003427s ]
+SQL: SELECT `id`,`frname`,`chname`,`description`,`region`,`update_time` FROM `frw_dictionary` ORDER BY `id` DESC LIMIT 0 , 20   [ RunTime:0.000297s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002243s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002345s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: QRcodeUrl D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 46 行.
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 72 行.
+NOTIC: [8] Undefined index: icp D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 83 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.032945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033027s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000967s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001114s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000751s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004130s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001458s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001535s ]
+
+[ 2014-01-04T11:45:22+08:00 ] 127.0.0.1 /system.php/Dictionary/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001547s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001655s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.004065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `frw_dictionary` LIMIT 1   [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.004116s ]
+SQL: SELECT `id`,`frname`,`chname`,`description`,`region`,`update_time` FROM `frw_dictionary` ORDER BY `id` DESC LIMIT 0 , 20   [ RunTime:0.000325s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002533s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002634s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: QRcodeUrl D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 46 行.
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 72 行.
+NOTIC: [8] Undefined index: icp D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 83 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.020287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020366s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001327s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000738s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000573s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004084s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001152s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001226s ]
+
+[ 2014-01-04T11:45:24+08:00 ] 127.0.0.1 /system.php/Dictionary/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001097s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.005378s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `frw_dictionary` LIMIT 1   [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.005039s ]
+SQL: SELECT `id`,`frname`,`chname`,`description`,`region`,`update_time` FROM `frw_dictionary` ORDER BY `id` DESC LIMIT 0 , 20   [ RunTime:0.000453s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001405s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001486s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: QRcodeUrl D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 46 行.
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 72 行.
+NOTIC: [8] Undefined index: icp D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 83 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.029860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029935s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000793s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000690s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000547s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000722s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002929s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000802s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2014-01-04T11:45:25+08:00 ] 127.0.0.1 /system.php/Dictionary/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001032s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001126s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.004971s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `frw_dictionary` LIMIT 1   [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.004282s ]
+SQL: SELECT `id`,`frname`,`chname`,`description`,`region`,`update_time` FROM `frw_dictionary` ORDER BY `id` DESC LIMIT 0 , 20   [ RunTime:0.000352s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001360s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001437s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: QRcodeUrl D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 46 行.
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 72 行.
+NOTIC: [8] Undefined index: icp D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 83 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.025998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026074s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000752s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000688s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000646s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002938s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000786s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000848s ]
+
+[ 2014-01-04T11:45:26+08:00 ] 127.0.0.1 /system.php/Dictionary/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002163s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002261s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.035701s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `frw_dictionary` LIMIT 1   [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.003516s ]
+SQL: SELECT `id`,`frname`,`chname`,`description`,`region`,`update_time` FROM `frw_dictionary` ORDER BY `id` DESC LIMIT 0 , 20   [ RunTime:0.000359s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002869s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002990s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: QRcodeUrl D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 46 行.
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 72 行.
+NOTIC: [8] Undefined index: icp D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 83 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.020370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020444s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000712s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000746s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000542s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002994s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000786s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000845s ]
+
+[ 2014-01-04T11:46:00+08:00 ] 127.0.0.1 /system.php/Dictionary/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001398s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001494s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.004536s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `frw_dictionary` LIMIT 1   [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.005508s ]
+SQL: SELECT `id`,`frname`,`chname`,`description`,`region`,`update_time` FROM `frw_dictionary` ORDER BY `id` DESC LIMIT 0 , 20   [ RunTime:0.001062s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001736s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001832s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: QRcodeUrl D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 46 行.
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 72 行.
+NOTIC: [8] Undefined index: icp D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 83 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020085s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001015s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000927s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000848s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004304s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001133s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2014-01-04T11:51:57+08:00 ] 127.0.0.1 /system.php/Dictionary/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001390s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001481s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.020092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `frw_dictionary` LIMIT 1   [ RunTime:0.000268s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.004762s ]
+SQL: SELECT `id`,`frname`,`chname`,`description`,`region`,`update_time` FROM `frw_dictionary` ORDER BY `id` DESC LIMIT 0 , 20   [ RunTime:0.000801s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001608s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001702s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: QRcodeUrl D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 46 行.
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 72 行.
+NOTIC: [8] Undefined index: icp D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 83 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.020246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020321s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000991s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001262s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000938s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004674s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003080s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003183s ]
+
+[ 2014-01-04T11:52:30+08:00 ] 127.0.0.1 /system.php/Dictionary/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001822s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001925s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.007446s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `frw_dictionary` LIMIT 1   [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.007732s ]
+SQL: SELECT `id`,`frname`,`chname`,`description`,`region`,`update_time` FROM `frw_dictionary` ORDER BY `id` DESC LIMIT 0 , 20   [ RunTime:0.000471s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003051s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003149s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: QRcodeUrl D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 46 行.
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 72 行.
+NOTIC: [8] Undefined index: icp D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 83 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.021881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021960s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001030s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000926s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000800s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003984s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000986s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001053s ]
+
+[ 2014-01-04T11:52:49+08:00 ] 127.0.0.1 /system.php/Dictionary/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001193s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001288s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.010787s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `frw_dictionary` LIMIT 1   [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `frw_dictionary` [ RunTime:0.014525s ]
+SQL: SELECT `id`,`frname`,`chname`,`description`,`region`,`update_time` FROM `frw_dictionary` ORDER BY `id` DESC LIMIT 0 , 20   [ RunTime:0.000938s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001403s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001485s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: QRcodeUrl D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 46 行.
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 72 行.
+NOTIC: [8] Undefined index: icp D:\xampp\htdocs\frwine\Cache\Runtime\Admin\Cache\9f95534465ee3a122f4b1599c857cceb.php 第 83 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.019085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019159s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001187s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001039s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000798s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004485s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002307s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002435s ]
+
+[ 2014-01-04T11:52:58+08:00 ] ERR: (ThinkException) 非法操作:edit
+[ 2014-01-04T11:52:58+08:00 ] 127.0.0.1 /system.php/Dictionary/edit?id=4
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001606s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001829s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001952s ]
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\frwine\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\frwine\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file D:\xampp\htdocs\frwine\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line D:\xampp\htdocs\frwine\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class DictionaryAction could not be converted to string D:\xampp\htdocs\frwine\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\frwine\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\frwine\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\frwine\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\frwine\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\frwine\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
