@@ -13,8 +13,8 @@
     <div class="c1">
         <div class="logo flower"><a href="/"><img src="/Public/Img/logo.png" /></a></div>
         <ul class="nav">
-            <li><a href="/">首页</a></li>
-            <li class="on"><a href="<?php echo U('Dictionary/index');?>">在线词典</a></li>
+            <li class="on"><a href="/">首页</a></li>
+            <li><a href="<?php echo U('Dictionary/index');?>">在线词典</a></li>
             <li class="nobg"><a href="<?php echo U('Index/contactus');?>">联系我们</a></li>
         </ul>
     </div>
@@ -27,7 +27,9 @@
         </form>
     </div>
     <div class="split">&nbsp;</div>
-    
+    <div class="map c1">
+        <img src="/Public/Img/map.png" />
+    </div>
 </div>
 <div class="footer">
 	<div class="c2">

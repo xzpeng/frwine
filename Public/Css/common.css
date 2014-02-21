@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family:"微软雅黑","黑体",sans-serif;
+	background:url(/Public/Img/body_bg.jpg);
+	color:#444;
+}
+a{
+	color:#444;
+	text-decoration:none;
+}
+a:hover{
+	color:#c00;
+}
+.c1{
+	width:760px;
+	margin:0 auto;
+}
+.c2{
+	width:900px;
+	margin:0 auto;
+}
+/*---- 顶部 ------------------------------------------------------*/
+.head{
+	background:url(/Public/Img/head_bg.jpg) repeat-x center;
+	height:120px;
+	border-top:5px solid #270000;
+	border-bottom:5px solid #c0c0c0;
+}
+.logo{
+	width:260px;
+	height:85px;
+	float:left;
+	margin-top:15px;
+}
+.nav{
+	float:left;
+	margin-left:20px;
+	display:inline;
+}
+.nav li{
+	float:left;
+	margin-left:15px;
+	line-height:120px;
+	font-size:18px;
+	background:url(/Public/Img/nav_li_bg.png) no-repeat right;
+	padding-right:25px;
+}
+.nav li.nobg{
+	background:none;
+}
+.nav li a{
+	color:#f7f7f7;
+}
+.nav li a:hover{
+	text-decoration:underline;
+}
+.nav .on a{
+	color:#cc3;
+}
+.nav .on a:hover{
+	text-decoration:none;
+}
+.footer{
+	background:url(/Public/Img/footer_bg.jpg) repeat-x;
+	height:150px;
+	font-family:"宋体";
+	font-size:12px;
+	color:#9f9f9f;
+}
+.endNav{
+	width:370px;
+	margin:0 auto;
+	padding-top:35px;
+}
+.endNav li{
+	float:left;
+}
+.endNav li a{
+	color:#9f9f9f;
+}
+.endNav li a:hover{
+	text-decoration:underline;
+}
+.endNav li em{
+	margin:0 12px;
+}
+.endInfo{
+	text-align:center;
+	line-height:28px;
+	margin-top:15px;
+}

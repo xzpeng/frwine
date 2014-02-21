@@ -1,17 +1,22 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title></title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <js href="/Public/Min/?f=/Public/Js/jquery-1.9.0.min.js|/Public/Js/jquery.lazyload.js|/Public/Js/dic/jquery.autocomplete.min.js|/Public/Js/dic/dictionary.js"/>
-        <css href="/Public/Min/?f=/Public/Css/base.css|/Public/Css/layout.css|/Public/Css/dic/jquery.autocomplete.css"/>
-    </head>
-    <body>
-        <div>
-            <form action method="POST">
-                <input type="text" id="dict" />
-                <input type="submit" value="SEARCH" />
-            </form>
-        </div>
-    </body>
-</html>
+<include file="Common:header" />
+<div class="head">
+    <div class="c1">
+        <div class="logo flower"><a href="/"><img src="/Public/Img/logo.png" /></a></div>
+        <ul class="nav">
+            <li><a href="/">首页</a></li>
+            <li class="on"><a href="{:U('Dictionary/index')}">在线词典</a></li>
+            <li class="nobg"><a href="{:U('Index/contactus')}">联系我们</a></li>
+        </ul>
+    </div>
+</div>
+<div class="box c1 clearfix">
+    <div class="search">
+        <form action="{:U('Dictionary/search')}" method="POST">
+            <input id="dictionarykw" name="kw2search" type="text" class="sBar" placeholder="输入要查找的关键字">
+            <input type="submit" class="sBtn" value="搜 索"/>
+        </form>
+    </div>
+    <div class="split">&nbsp;</div>
+    
+</div>
+<include file="Common:footer" />

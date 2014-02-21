@@ -1,15 +1,24 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title></title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <!--    <js href="/Public/Min/?f=/Public/Js/jquery-1.9.0.min.js|/Public/Js/jquery.lazyload.js"/>
-            <css href="/Public/Min/?f=/Public/Css/base.css|/Public/Css/layout.css"/>-->
-    </head>
-    <body>
-
-        <script type="text/javascript">
-        </script>
-        index
-    </body>
-</html>
+<include file="Common:header" />
+<div class="head">
+    <div class="c1">
+        <div class="logo flower"><a href="/"><img src="/Public/Img/logo.png" /></a></div>
+        <ul class="nav">
+            <li class="on"><a href="/">首页</a></li>
+            <li><a href="{:U('Dictionary/index')}">在线词典</a></li>
+            <li class="nobg"><a href="{:U('Index/contactus')}">联系我们</a></li>
+        </ul>
+    </div>
+</div>
+<div class="box c1 clearfix">
+    <div class="search">
+        <form action="{:U('Dictionary/search')}" method="POST">
+            <input id="dictionarykw" name="kw2search" type="text" class="sBar" placeholder="输入要查找的关键字">
+            <input type="submit" class="sBtn" value="搜 索"/>
+        </form>
+    </div>
+    <div class="split">&nbsp;</div>
+    <div class="map c1">
+        <img src="/Public/Img/map.png" />
+    </div>
+</div>
+<include file="Common:footer" />

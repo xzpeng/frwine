@@ -10,6 +10,7 @@ class IndexAction extends Action {
         $img_url = $QRCode->getUrl("http://blog.51edm.org");
         echo '<img src="' . $img_url . '" />';
         */
+        $this->assign('pagetitle', '首页 法国葡萄酒关键词');
         $this->display();
     }
 
@@ -24,6 +25,11 @@ class IndexAction extends Action {
         
         $this->assign('article', $article);
 
+        $this->display();
+    }
+
+    public function contactus() {
+        $this->assign('pagetitle', '联系我们 法国葡萄酒关键词');
         $this->display();
     }
 
