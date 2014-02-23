@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
-.seekTxt{
-	background:url(/Public/Img/sBtn.jpg) no-repeat 95% center #dfdfdf;
+.seek{
+	background:#dfdfdf;
 	width:260px;
 	height:35px;
 	font-size:14px;
@@ -13,6 +13,23 @@
 	margin:45px 0 0 20px;
 	float:right;
 	padding-left:12px;
+}
+.seekTxt{
+	width:220px;
+	height:30px;
+	background:#dfdfdf;
+	border:none;
+	margin-top:2px;
+	float:left;
+	line-height:30px;
+}
+.seekBtn{
+	background:url(/Public/Img/sBtn.jpg) no-repeat center;
+	width:30px;
+	height:30px;
+	border:none;
+	cursor:pointer;
+	margin:2px 0 0 3px;
 }
 .box{
 	min-height:450px;
@@ -87,6 +104,7 @@
 	height:36px;
 	float:left;
 	color:#fff;
+	cursor:pointer;
 }
 .split{
 	width:760px;
